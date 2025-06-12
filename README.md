@@ -23,8 +23,8 @@ Note: There are different speeds of these RAM chips.  So far this has been teste
 <li>Official 3000 Rev 9.x</li>
 <li>Re-Amiga 3000</li>
 <li>GBA1000</li>
-Note: You could in theory use 2 x PAL Line RAM, and 2 x NTSC Line RAM chips.  The ones on the combined "path" need to be NTSC.
 </ul>
+Note: You could in theory use 2 x PAL Line RAM, and 2 x NTSC Line RAM chips.  The ones on the combined "path" need to be NTSC.<br><br>
 In addition J481 on the 3000 motherboard can be used to enable scanlines in progressive mode.<br><br>
 <h1>Important</h1>
 The current board revision is RC2 - I have NOT tested that revision yet!  Difference between RC1 and RC2 - RC2 moved the capacitor on the 3.3v rail to the left side, and PCB cut away slightly to allow fitment better in the 3000.  I also added a pull up on the J481 IO related pin on the CPLD.<br><br>
