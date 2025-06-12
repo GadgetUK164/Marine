@@ -59,8 +59,8 @@ Video modes supported by Super Denise (ECS) are not supported (as per Amber).
 The bypass switch on the 3000 has been tested and works as per Amber original manual bypass.
 J481 is not supported as per the original Amber, partly because I couldnt work out how it was used!  It now can be used to enable or disable scanlines in progressive display modes.<br><br>
 I found it harder to "dial in" regards the Amiga 3000 PLL adjustment (trim cap and resistor).  This could indicate that my timing is not spot on just yet.  It may benefit from a re-design to add:-<br>
-<bu>More decoupling on CPLD power pins?<br></bu>
-<bu>Buffering of RGB to TTL levels?<br></bu>
-<bu>Schmits on 14Mhz and 28Mhz inputs?<br></bu>
+<bu>More decoupling on CPLD power pins?</bu><br>
+<bu>Buffering of RGB to TTL levels?</bu><br>
+<bu>Schmits on 14Mhz and 28Mhz inputs?</bu><br>
 
 
