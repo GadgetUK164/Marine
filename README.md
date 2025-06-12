@@ -5,6 +5,7 @@ You can see his original project here:- https://gitlab.com/MHeinrichs/multifix-a
 
 A massive thanks to Matthias for creating the AGA Multifix, and for allowing me to adapt to an Amber replacement.
 
+<h1>License</h1>
 This project is open source, and should not be sold commercially.
 
 Do whatever you want with this, if you do it for private use and mention this work, and the AGA Multifix as origin.
