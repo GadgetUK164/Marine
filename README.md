@@ -21,9 +21,11 @@ In addition J481 on the 3000 motherboard can be used to enable scanlines in prog
 Note: There are different speeds of these RAM chips.
 
 So far this has been tested working on:-
-Official 3000 Rev 9.x
-Re-Amiga 3000
-GBA1000
+<ul>
+<li>Official 3000 Rev 9.x</li>
+<li>Re-Amiga 3000</li>
+<li>GBA1000</li>
+</ul>
 <h1>Important</h1>
 The current board revision is RC2 - I have NOT tested that revision yet!
 The board currently fits into the PLCC footprint using turned pins.   It is recommended to remove the PLCC socket, and fit turned pin (female) strips.
