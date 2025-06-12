@@ -71,7 +71,7 @@ It may benefit from a re-design to add:-<br>
 <br>
 <ul>
 <li>More decoupling on CPLD power pins?</li>
-<li>Buffering of RGB to TTL levels?</li>
+<li>Buffering of RGB output to TTL levels?</li>
 <li>Schmitt Triggers on 14Mhz and 28Mhz inputs?</li>
 <li>4 layer?</li>
 <li>PLCC plug (separate interposer might be possible)?</li>
