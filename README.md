@@ -64,7 +64,9 @@ I have tested many games and demos that use either interlaced or progressive and
 Video modes supported by Super Denise (ECS) are not supported (as per Amber).
 The bypass switch on the 3000 has been tested and works as per Amber original manual bypass.
 J481 is not supported as per the original Amber, partly because I couldnt work out how it was used!  It now can be used to enable or disable scanlines in progressive display modes.<br><br>
-I found it harder to "dial in" regards the Amiga 3000 PLL adjustment (trim cap and resistor).  This could indicate that my timing is not spot on just yet.  That was NOT the case with the Re-Amiga 3000, or the GBA1000.  PLL adjustment on those systems was much easier for me.  It may benefit from a re-design to add:-<br>
+I found it harder to "dial in" regards the Amiga 3000 PLL adjustment (trim cap and resistor).  That was NOT the case with the Re-Amiga 3000, or the GBA1000.  PLL adjustment on those systems was much easier for me. <br><br>
+NTSC display modes are definitely sharper than PAL ones.   This could indicate that my timing is not spot on just yet!<br><br>
+It may benefit from a re-design to add:-<br>
 <br>
 <ul>
 <li>More decoupling on CPLD power pins?</li>
