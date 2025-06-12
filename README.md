@@ -26,7 +26,7 @@ Note: There are different speeds of these RAM chips.  So far this has been teste
 <li>GBA1000</li>
 </ul>
 <h1>Important</h1>
-The current board revision is RC2 - I have NOT tested that revision yet!  Difference between RC1 and RC2 - RC2 moved the capacitor on the 3.3v rail to the left side, and PCB cut away slightly to allow fitment better in the 3000.  I also added a pull up on the J481 "pin".
+The current board revision is RC2 - I have NOT tested that revision yet!  Difference between RC1 and RC2 - RC2 moved the capacitor on the 3.3v rail to the left side, and PCB cut away slightly to allow fitment better in the 3000.  I also added a pull up on the J481 IO related pin on the CPLD.
 The board currently fits into the PLCC footprint using turned pins.   It is recommended to remove the PLCC socket, and fit turned pin (female) strips.
 I noticed that when testing PAL Interlaced on the Amiga 3000, using the default 74ALS74 (U480) which Commodore fitted to the motherboard, the video is not very sharp at all.  This can be improved massively by swappping U480 on the 3000 to a 74F74.  The GBA1000 already has a 74F74 in that location.
 <br><br>
