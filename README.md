@@ -31,4 +31,22 @@ You can alter the bias resistors (eg. 330 ohm, down from the original 470 ohm). 
 As mentioned above, use NTSC Line RAM. uPD42101-3
 In future I might be able to support PAL Line RAM.
 
+<h1>Repository Contents</h1>
+KiCad PCB Design Files & Schematics
+ISE 14.7 VHD and pins files for Logic
+
+<h1>Components Needed</h1>
+Xilinx XC95144XL CPLD
+R1  0603 Resistor 10K
+R2  0603 Resistor 10K
+R3  0603 Resistor 10K
+R4  0603 Resistor 10K
+L1  Ferrite (I went with 9ohm @ 100Mhz)
+U1  AMS1117 3.3V Regulator
+C1  MLCC Capacitor 4.7uF 10V
+C2  MLCC Capacitor 10uF  10V
+C3  MLCC Capacitor 1uF   10V
+C4  MLCC Capacitor 100nF 10V
+2.54 pitch turned pin strips
+
 
