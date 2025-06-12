@@ -25,7 +25,7 @@ Note: There are different speeds of these RAM chips.  So far this has been teste
 <li>GBA1000</li>
 </ul>
 Note: You could in theory use 2 x PAL Line RAM, and 2 x NTSC Line RAM chips.  The ones on the combined "path" need to be NTSC.<br><br>
-In addition J481 on the 3000 motherboard can be used to enable scanlines in progressive mode.<br><br>
+In addition J481 on the 3000 motherboard can be used to enable scanlines in progressive mode.  Before anyone asks, it's not practical to have scanlines in interlaced modes - additional pixel data is contained in interlaced.  In progressive, each scanline just gets output twice, so a black scanline instead makes sense!<br><br>
 <h1>Important</h1>
 The current board revision is RC2 - I have NOT tested that revision yet!  Difference between RC1 and RC2 - RC2 moved the capacitor on the 3.3v rail to the left side, and PCB cut away slightly to allow fitment better in the 3000.  I also added a pull up on the J481 IO related pin on the CPLD.<br><br>
 The board currently fits into the PLCC footprint using turned pins.   It is recommended to remove the PLCC socket, and fit turned pin (female) strips to the motherboard.  Then fit turned pin (male) strips to the Marine PCB.<br><br>
@@ -34,7 +34,7 @@ I noticed that when testing PAL Interlaced on the Amiga 3000 using the default 7
 The RGB output levels to the Commodore Hybrid are at the 3.3v logic levels, and whilst testing has revealed the difference to be a negligble amount of brightness difference, it may be an idea to fit a customised modern hybrid in place of HY480.
 You can alter the bias resistors on a modern Hyrid replacement (eg. to 330 ohm, down from the original 470 ohm).  But in my opinion this is not required.  I've not done it on my 3000, and I honestly cannot see a difference to the output.  If I scope it, I am sure there will be a difference though!<br><br>
 As mentioned above, use NTSC Line RAM. uPD42101-3
-In future I might be able to support PAL Line RAM.
+In future I might be able to support PAL Line RAM via a code change and use of either JP1 or JP2.
 
 <h1>Repository Contents</h1>
 KiCad 7.0 PCB Design Files & Schematics
