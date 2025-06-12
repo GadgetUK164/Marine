@@ -37,17 +37,17 @@ KiCad 7.0 PCB Design Files & Schematics
 ISE 14.7 VHD and pins files for Logic
 
 <h1>Components Needed</h1>
-Xilinx XC95144XL CPLD
-R1  0603 Resistor 10K
-R2  0603 Resistor 10K
-R3  0603 Resistor 10K
-R4  0603 Resistor 10K
-L1  Ferrite (I went with 9ohm @ 100Mhz)
-U1  AMS1117 3.3V Regulator
-C1  MLCC Capacitor 4.7uF 10V
-C2  MLCC Capacitor 10uF  10V
-C3  MLCC Capacitor 1uF   10V
-C4  MLCC Capacitor 100nF 10V
-2.54 pitch turned pin strips
+Xilinx XC95144XL CPLD<br>
+R1  0603 Resistor 10K<br>
+R2  0603 Resistor 10K<br>
+R3  0603 Resistor 10K<br>
+R4  0603 Resistor 10K<br>
+L1  Ferrite (I went with 9ohm @ 100Mhz)<br>
+U1  AMS1117 3.3V Regulator<br>
+C1  MLCC Capacitor 4.7uF 10V<br>
+C2  MLCC Capacitor 10uF  10V<br>
+C3  MLCC Capacitor 1uF   10V<br>
+C4  MLCC Capacitor 100nF 10V<br>
+2.54 pitch turned pin strips<br>
 
 
