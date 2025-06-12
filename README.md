@@ -26,12 +26,12 @@ Note: There are different speeds of these RAM chips.  So far this has been teste
 <li>GBA1000</li>
 </ul>
 <h1>Important</h1>
-The current board revision is RC2 - I have NOT tested that revision yet!  Difference between RC1 and RC2 - RC2 moved the capacitor on the 3.3v rail to the left side, and PCB cut away slightly to allow fitment better in the 3000.  I also added a pull up on the J481 IO related pin on the CPLD.
-The board currently fits into the PLCC footprint using turned pins.   It is recommended to remove the PLCC socket, and fit turned pin (female) strips.
-I noticed that when testing PAL Interlaced on the Amiga 3000, using the default 74ALS74 (U480) which Commodore fitted to the motherboard, the video is not very sharp at all.  This can be improved massively by swappping U480 on the 3000 to a 74F74.  The GBA1000 already has a 74F74 in that location.
+The current board revision is RC2 - I have NOT tested that revision yet!  Difference between RC1 and RC2 - RC2 moved the capacitor on the 3.3v rail to the left side, and PCB cut away slightly to allow fitment better in the 3000.  I also added a pull up on the J481 IO related pin on the CPLD.<br><br>
+The board currently fits into the PLCC footprint using turned pins.   It is recommended to remove the PLCC socket, and fit turned pin (female) strips to the motherboard.  Then fit turned pin (male) strips to the Marine PCB.<br><br>
+I noticed that when testing PAL Interlaced on the Amiga 3000 using the default 74ALS74 (U480) which Commodore fitted to the motherboard, the video is not very sharp at all.  This can be improved massively by swappping U480 on the 3000 to a 74F74.  The GBA1000 already has a 74F74 in that location.
 <br><br>
-The RGB output levels to the Commodore Hybrid are at the 3.3v level, and whilst testing has revealed the difference to be a negligble amount of brightness difference, it may be an idea to fit a customised modern hybrid in place of HY480.
-You can alter the bias resistors (eg. 330 ohm, down from the original 470 ohm).  But in my opinion this is not required.  I've not done it on my 3000, and I honestly cannot see a difference to the output.  If I scope it, I am sure there will be a difference though!
+The RGB output levels to the Commodore Hybrid are at the 3.3v logic levels, and whilst testing has revealed the difference to be a negligble amount of brightness difference, it may be an idea to fit a customised modern hybrid in place of HY480.
+You can alter the bias resistors on a modern Hyrid replacement (eg. to 330 ohm, down from the original 470 ohm).  But in my opinion this is not required.  I've not done it on my 3000, and I honestly cannot see a difference to the output.  If I scope it, I am sure there will be a difference though!<br><br>
 As mentioned above, use NTSC Line RAM. uPD42101-3
 In future I might be able to support PAL Line RAM.
 
