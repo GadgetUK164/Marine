@@ -19,7 +19,7 @@ If you use parts of this work for closed source, burn in hell and live in fear!
 It uses the magic code from the AGA Multifix to control the read resets, write resets, read emables and write enables of the Frame RAM and Line RAM contained on the Amiga 3000 motherboard.  It also works in the GBA1000 from George Braun.
 In addition J481 on the 3000 motherboard can be used to enable scanlines in progressive mode.  JP1 and JP2 are added for future changes.   At the time of public release it supports PAL Line RAM only.  It might be possible to use one of the jumpers to toggle between NTSC and PAL Line RAM.   To my knowledge Amiga 3000 computers all shipped with NTSC Line RAM from the factory.  ie. uPD42101.   PAL RAM is uPD42102
 Note: There are different speeds of these RAM chips.
-
+<br>
 So far this has been tested working on:-
 <ul>
 <li>Official 3000 Rev 9.x</li>
@@ -27,7 +27,7 @@ So far this has been tested working on:-
 <li>GBA1000</li>
 </ul>
 <h1>Important</h1>
-The current board revision is RC2 - I have NOT tested that revision yet!
+The current board revision is RC2 - I have NOT tested that revision yet!  Difference between RC1 and RC2 - RC2 moved the capacitor on the 3.3v rail to the left side, and PCB cut away slightly to allow fitment better in the 3000.  I also added a pull up on the J481 "pin".
 The board currently fits into the PLCC footprint using turned pins.   It is recommended to remove the PLCC socket, and fit turned pin (female) strips.
 I noticed that when testing PAL Interlaced, using the default 74AL74 (U480) the video is not very sharp at all.  This can be improved massively by swappping U480 on the 3000 to a 74F74.  The GBA1000 already has a 74F74 there.
 <br>
