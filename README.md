@@ -41,18 +41,20 @@ KiCad 7.0 PCB Design Files & Schematics
 ISE 14.7 VHD and pins files for Logic
 
 <h1>Components Needed</h1>
-Xilinx XC95144XL CPLD<br>
-R1  0603 Resistor 10K<br>
-R2  0603 Resistor 10K<br>
-R3  0603 Resistor 10K<br>
-R4  0603 Resistor 10K<br>
-L1  0805 Ferrite (I went with 9ohm @ 100Mhz) - You could just fit 0ohm or 1ohm here I think!<br>
-U1  SOT-223 AMS1117 3.3V Regulator<br>
-C1  0805 MLCC Capacitor 4.7uF 50V<br>
-C2  0805 MLCC Capacitor 10uF  50V<br>
-C3  0805 MLCC Capacitor 1uF   50V<br>
-C4  0805 MLCC Capacitor 100nF 50V<br>
-2.54 pitch turned pin strips(female for motherboard, male for Marine)<br>
+<ul>
+<li>Xilinx XC95144XL CPLD</li>
+<li>R1  0603 Resistor 10K</li>
+<li>R2  0603 Resistor 10K</li>
+<li>R3  0603 Resistor 10K</li>
+<li>R4  0603 Resistor 10K</li>
+<li>L1  0805 Ferrite (I went with 9ohm @ 100Mhz) - You could just fit 0ohm or 1ohm here I think!</li>
+<li>U1  SOT-223 AMS1117 3.3V Regulator</li>
+<li>C1  0805 MLCC Capacitor 4.7uF 50V</li>
+<li>C2  0805 MLCC Capacitor 10uF  50V</li>
+<li>C3  0805 MLCC Capacitor 1uF   50V</li>
+<li>C4  0805 MLCC Capacitor 100nF 50V</li>
+<li>2.54 pitch turned pin strips (female for motherboard, male for Marine)</li>
+</ul>
 
 <h1>Limitations</h1>
 I offer no warranty on this design.  It works for me, and I am happy!
