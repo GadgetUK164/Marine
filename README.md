@@ -46,7 +46,7 @@ R1  0603 Resistor 10K<br>
 R2  0603 Resistor 10K<br>
 R3  0603 Resistor 10K<br>
 R4  0603 Resistor 10K<br>
-L1  0805 Ferrite (I went with 9ohm @ 100Mhz)<br>
+L1  0805 Ferrite (I went with 9ohm @ 100Mhz) - You could just fit 0ohm or 1ohm here I think!<br>
 U1  SOT-223 AMS1117 3.3V Regulator<br>
 C1  0805 MLCC Capacitor 4.7uF 50V<br>
 C2  0805 MLCC Capacitor 10uF  50V<br>
