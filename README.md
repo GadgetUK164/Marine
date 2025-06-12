@@ -17,7 +17,6 @@ If you use parts of this work for closed source, burn in hell and live in fear!
 
 <h1>How Does It Work</h1>
 It uses the magic code from the AGA Multifix to control the read resets, write resets, read emables and write enables of the Frame RAM and Line RAM contained on the Amiga 3000 motherboard.  It also works in the GBA1000 from George Braun.
-In addition J481 on the 3000 motherboard can be used to enable scanlines in progressive mode.<br><br>
 JP1 and JP2 are added for future changes.   At the time of public release it supports PAL Line RAM only.  It might be possible to use one of the jumpers to toggle between NTSC and PAL Line RAM.<br><br>   To my knowledge Amiga 3000 computers all shipped with NTSC Line RAM from the factory.  ie. uPD42101.   PAL RAM is uPD42102<br><br>
 Note: There are different speeds of these RAM chips.  So far this has been tested working on (all with NTSC Line RAM - uPD42101-3):-<br>
 <ul>
@@ -25,6 +24,7 @@ Note: There are different speeds of these RAM chips.  So far this has been teste
 <li>Re-Amiga 3000</li>
 <li>GBA1000</li>
 </ul>
+In addition J481 on the 3000 motherboard can be used to enable scanlines in progressive mode.<br><br>
 <h1>Important</h1>
 The current board revision is RC2 - I have NOT tested that revision yet!  Difference between RC1 and RC2 - RC2 moved the capacitor on the 3.3v rail to the left side, and PCB cut away slightly to allow fitment better in the 3000.  I also added a pull up on the J481 IO related pin on the CPLD.<br><br>
 The board currently fits into the PLCC footprint using turned pins.   It is recommended to remove the PLCC socket, and fit turned pin (female) strips to the motherboard.  Then fit turned pin (male) strips to the Marine PCB.<br><br>
