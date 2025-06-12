@@ -31,7 +31,7 @@ The board currently fits into the PLCC footprint using turned pins.   It is reco
 I noticed that when testing PAL Interlaced on the Amiga 3000, using the default 74ALS74 (U480) which Commodore fitted to the motherboard, the video is not very sharp at all.  This can be improved massively by swappping U480 on the 3000 to a 74F74.  The GBA1000 already has a 74F74 in that location.
 <br><br>
 The RGB output levels to the Commodore Hybrid are at the 3.3v level, and whilst testing has revealed the difference to be a negligble amount of brightness difference, it may be an idea to fit a customised modern hybrid in place of HY480.
-You can alter the bias resistors (eg. 330 ohm, down from the original 470 ohm).  But in my opinion this is not required.  I've not done it on my 3000, and I cannot see a difference to the output.
+You can alter the bias resistors (eg. 330 ohm, down from the original 470 ohm).  But in my opinion this is not required.  I've not done it on my 3000, and I honestly cannot see a difference to the output.  If I scope it, I am sure there will be a difference though!
 As mentioned above, use NTSC Line RAM. uPD42101-3
 In future I might be able to support PAL Line RAM.
 
