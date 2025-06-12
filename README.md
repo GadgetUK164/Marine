@@ -68,6 +68,6 @@ I found it harder to "dial in" regards the Amiga 3000 PLL adjustment (trim cap a
 <li>Buffering of RGB to TTL levels?</li>
 <li>Schmitt Triggers on 14Mhz and 28Mhz inputs?</li>
 <li>4 layer?</li>
-<li>PLCC plug (seperate interposer might be possible)?</li>
+<li>PLCC plug (separate interposer might be possible)?</li>
 </ul>
 
