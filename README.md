@@ -25,7 +25,8 @@ GBA1000
 <h1>Important</h1>
 The board currently fits into the PLCC footprint using turned pins.   It is recommended to remove the PLCC socket, and fit turned pin (female) strips.
 I noticed that when testing PAL Interlaced, using the default 74AL74 (U480) the video is not very sharp at all.  This can be improved massively by swappping U480 on the 3000 to a 74F74.  The GBA1000 already has a 74F74 there.
-The RGB output level to the Commodore Hybrid are at 3.3v level, and whilst testing has revealed the difference to be a negligble amount of brightness difference, it may be an idea to fit a customised modern hybrid in place of HY480
+<br>
+The RGB output level to the Commodore Hybrid are at 3.3v level, and whilst testing has revealed the difference to be a negligble amount of brightness difference, it may be an idea to fit a customised modern hybrid in place of HY480.
 You can alter the bias resistors (eg. 330 ohm, down from the original 470 ohm).  But in my opinion this is not required.  I've not done it on my 3000, and I cannot see a difference to the output.
 As mentioned above, use NTSC Line RAM. uPD42101-3
 In future I might be able to support PAL Line RAM.
