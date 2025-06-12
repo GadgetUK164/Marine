@@ -28,7 +28,7 @@ Note: There are different speeds of these RAM chips.  So far this has been teste
 The current board revision is RC2 - I have NOT tested that revision yet!  Difference between RC1 and RC2 - RC2 moved the capacitor on the 3.3v rail to the left side, and PCB cut away slightly to allow fitment better in the 3000.  I also added a pull up on the J481 "pin".
 The board currently fits into the PLCC footprint using turned pins.   It is recommended to remove the PLCC socket, and fit turned pin (female) strips.
 I noticed that when testing PAL Interlaced, using the default 74AL74 (U480) the video is not very sharp at all.  This can be improved massively by swappping U480 on the 3000 to a 74F74.  The GBA1000 already has a 74F74 there.
-<br>
+<br><br>
 The RGB output level to the Commodore Hybrid are at 3.3v level, and whilst testing has revealed the difference to be a negligble amount of brightness difference, it may be an idea to fit a customised modern hybrid in place of HY480.
 You can alter the bias resistors (eg. 330 ohm, down from the original 470 ohm).  But in my opinion this is not required.  I've not done it on my 3000, and I cannot see a difference to the output.
 As mentioned above, use NTSC Line RAM. uPD42101-3
