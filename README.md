@@ -25,6 +25,7 @@ Official 3000 Rev 9.x
 Re-Amiga 3000
 GBA1000
 <h1>Important</h1>
+The current board revision is RC2 - I have NOT tested that revision yet!
 The board currently fits into the PLCC footprint using turned pins.   It is recommended to remove the PLCC socket, and fit turned pin (female) strips.
 I noticed that when testing PAL Interlaced, using the default 74AL74 (U480) the video is not very sharp at all.  This can be improved massively by swappping U480 on the 3000 to a 74F74.  The GBA1000 already has a 74F74 there.
 <br>
