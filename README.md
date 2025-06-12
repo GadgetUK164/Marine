@@ -50,4 +50,13 @@ C3  0805 MLCC Capacitor 1uF   10V<br>
 C4  0805 MLCC Capacitor 100nF 10V<br>
 2.54 pitch turned pin strips<br>
 
+<h1>Limitations</h1>
+I offer no warrant on this design.  It works for me, and I am happy!
+If you have a problem, I can investigate - but this is a hobby project.<br>
+Super Hires will display, but not correctly.  The RAM used on the Amiga 3000 cannot hold 1200 pixels wide, so some sampling issues will be noticed when trying to display Super Hires.
+I have tested many games and demos that use either interlaced or progressive and found no problems.<br>
+Video modes supported by Super Denise (ECS) are not supported (as per Amber).
+The bypass switch on the 3000 has been tested and works as per Amber original manual bypass.
+J481 is not supported as per the original Amber, partly because I couldnt work out how it was used!  It now can be used to enable or disable scanlines in progressive display modes.
+
 
