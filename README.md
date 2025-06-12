@@ -47,10 +47,10 @@ R3  0603 Resistor 10K<br>
 R4  0603 Resistor 10K<br>
 L1  0805 Ferrite (I went with 9ohm @ 100Mhz)<br>
 U1  SOT-223 AMS1117 3.3V Regulator<br>
-C1  0805 MLCC Capacitor 4.7uF 10V<br>
-C2  0805 MLCC Capacitor 10uF  10V<br>
-C3  0805 MLCC Capacitor 1uF   10V<br>
-C4  0805 MLCC Capacitor 100nF 10V<br>
+C1  0805 MLCC Capacitor 4.7uF 50V<br>
+C2  0805 MLCC Capacitor 10uF  50V<br>
+C3  0805 MLCC Capacitor 1uF   50V<br>
+C4  0805 MLCC Capacitor 100nF 50V<br>
 2.54 pitch turned pin strips<br>
 
 <h1>Limitations</h1>
