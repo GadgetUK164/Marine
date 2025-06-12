@@ -32,7 +32,7 @@ As mentioned above, use NTSC Line RAM. uPD42101-3
 In future I might be able to support PAL Line RAM.
 
 <h1>Repository Contents</h1>
-KiCad PCB Design Files & Schematics
+KiCad 7.0 PCB Design Files & Schematics
 <br>
 ISE 14.7 VHD and pins files for Logic
 
