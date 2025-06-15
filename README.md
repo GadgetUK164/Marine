@@ -29,7 +29,7 @@ Note: There are different speeds of these RAM chips.  So far this has been teste
 <li>GBA1000</li>
 </ul>
 Note: You could in theory use 2 x PAL Line RAM, and 2 x NTSC Line RAM chips.  The ones on the combined "path" need to be NTSC.<br><br>
-In addition J481 on the 3000 motherboard can be used to enable scanlines in progressive mode.  Before anyone asks, it's not practical to have scanlines in interlaced modes - additional pixel data is contained in interlaced.  In progressive, each scanline just gets output twice, so a black scanline instead makes sense!<br><br>
+In addition J481 on the 3000 motherboard can be used to enable scanlines in progressive mode.  Before anyone asks, it's not practical to have scanlines in interlaced modes - additional pixel data is contained in interlaced.  In progressive, each scanline just gets output twice, so a black scanline for the odd scanlines makes sense!<br><br>
 <h1>Important</h1>
 The current board revision is RC2 - I have NOT tested that revision yet!  Difference between RC1 and RC2 - RC2 moved the C1 capacitor to the left side (away from cut out section), and PCB cut away slightly to allow fitment better in the 3000.  I also added a pull up resistor (R4) on the J481 IO related pin on the CPLD.<br><br>
 The board currently fits into the PLCC footprint using turned pins.   It is recommended to remove the PLCC socket, and fit turned pin (female) strips to the motherboard.  Then fit turned pin (male) strips to the Marine PCB.<br><br>
