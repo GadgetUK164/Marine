@@ -47,7 +47,7 @@ ISE 14.7 VHD and pins files for Logic
 
 <h1>Components Needed</h1>
 <ul>
-<li>Xilinx XC95144XL CPLD</li>
+<li>Xilinx XC95144XL-10TQ100 CPLD</li>
 <li>R1  0603 Resistor 10K</li>
 <li>R2  0603 Resistor 10K</li>
 <li>R3  0603 Resistor 10K</li>
