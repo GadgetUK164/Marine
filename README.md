@@ -21,7 +21,7 @@ If you copy parts of this work to your project, mention the source.
 If you use parts of this work for closed source, burn in hell and live in fear!
 
 <h1>How Does It Work</h1>
-It uses the magic code from the AGA Multifix to control the read resets, write resets, read emables and write enables of the Frame RAM and Line RAM contained on the Amiga 3000 motherboard.  It also works in the GBA1000 from Georg Braun.
+It uses the magic code from the AGA Multifix to control the read resets, write resets, read enables and write enables of the Frame RAM and Line RAM contained on the Amiga 3000 motherboard.  It also works in the GBA1000 from Georg Braun.
 JP1 and JP2 are added for future changes.   At the time of public release it supports NTSC Line RAM only.  It may be possible with a future firmware update, to use one of the jumpers to toggle between NTSC and PAL Line RAM.<br><br>   To my knowledge Amiga 3000 computers all shipped with NTSC Line RAM from the factory.  ie. uPD42101.   PAL RAM is uPD42102<br><br>
 Note: There are different speeds of these RAM chips.  So far this has been tested working correctly with uPD42101-3 Line RAM.<br>
 <ul>
