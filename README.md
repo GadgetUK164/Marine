@@ -25,8 +25,8 @@ It uses the magic code from the AGA Multifix to control the read resets, write r
 JP1 and JP2 are added for future changes.   At the time of public release it supports NTSC Line RAM only.  It may be possible with a future firmware update, to use one of the jumpers to toggle between NTSC and PAL Line RAM.<br><br>   To my knowledge Amiga 3000 computers all shipped with NTSC Line RAM from the factory.  ie. uPD42101.   PAL RAM is uPD42102<br><br>
 Note: There are different speeds of these RAM chips.  So far this has been tested working correctly with uPD42101-3 Line RAM.<br>
 <ul>
-<li>Official 3000 Rev 9.x</li>
-<li>Re-Amiga 3000</li>
+<li>Official 3000 (Rev 9.x)</li>
+<li>Re-Amiga 3000 (Rev 11)</li>
 <li>GBA1000</li>
 </ul>
 Note: You could in theory use 2 x PAL Line RAM, and 2 x NTSC Line RAM chips.  The ones on the combined "path" need to be NTSC.<br><br>
