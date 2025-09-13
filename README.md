@@ -38,7 +38,7 @@ I noticed that when testing PAL Interlaced on the Amiga 3000 using the default 7
 The RGB output levels to the Commodore Hybrid are at the 3.3v logic levels, and whilst testing has revealed the difference to be a negligble amount of effect on brightness, it may be an idea to fit a customised modern hybrid in place of HY480.
 You can alter the bias resistors on a modern Hyrid replacement (eg. to 330 ohm, down from the original 470 ohm).  But in my opinion this is not required.  I've not done it on my 3000, and I honestly cannot see a difference to the output.  If I scope it, I am sure there will be a difference though!<br><br>
 As mentioned above, use NTSC Line RAM (uPD42101-3).<br>
-In future I might be able to support PAL Line RAM via a code change and use of either JP1 or JP2.
+In future I might be able to support PAL Line RAM via a code change and use of JP2.
 
 <h1>Repository Contents</h1>
 KiCad 7.0 PCB Design Files & Schematics
