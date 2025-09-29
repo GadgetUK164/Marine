@@ -63,7 +63,7 @@ ISE 14.7 VHD and pins files for Logic
 
 <h1>Limitations</h1>
 I offer no warranty on this design.  It works for me, and I am happy!
-If you have a problem, I can investigate - but this is a hobby project.<br>
+If you have a problem, I can investigate - but this is a hobby project.<br><br>
 Super Hires will display, but not 100% correctly - it can look pretty good but a pixel will be missed every so often due to sampling into smaller RAM at a lower clock rate than required.  The RAM used on the Amiga 3000 cannot hold 1200 pixels of a scanline, so some sampling issues will be noticed when trying to display Super Hires.
 I have tested many games and demos that use either interlaced or progressive and found no problems.<br><br>
 Video modes supported by Super Denise (ECS) are not supported (as per Amber).
