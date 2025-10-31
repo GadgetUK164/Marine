@@ -7,10 +7,8 @@ A massive thanks to Matthias for creating the AGA Multifix, and for allowing me 
 
 ![20250608_175438](https://github.com/user-attachments/assets/77b75f60-ae52-479e-ad04-98aac9ea0a00)
 
-
-![top](https://github.com/user-attachments/assets/8b1fe512-9a9e-43a3-af80-650c5f3efa30)
-![bottom](https://github.com/user-attachments/assets/4a0c8d69-558a-4da8-9f5b-4be827701c2f)
-
+<img width="775" height="909" alt="top" src="https://github.com/user-attachments/assets/384fc739-55b1-4108-842a-733b181ab108" />
+<img width="769" height="923" alt="bottom" src="https://github.com/user-attachments/assets/84867fdd-5a19-4465-948e-f9687d2ed4ec" />
 
 <h1>License</h1>
 This project is open source, and should not be sold commercially.
