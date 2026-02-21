@@ -1,0 +1,13 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,4.7uF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,152.5,-73.5,0.0,bottom
+C2,10uF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,152.6375,-82.5,180.0,bottom
+C3,100nF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,146.71,-82.5025,270.0,bottom
+C4,1uF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,145.2675,-73.43,0.0,bottom
+FB1,FerriteBead,L_0603_1608Metric_Pad1.05x0.95mm_HandSolder,156.04,-70.395,270.0,bottom
+J1,JTAG,PinHeader_1x06_P2.54mm_Vertical,143.15,-61.5,0.0,top
+R1,10K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,152.54,-71.36,180.0,bottom
+R2,10K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,157.44,-74.9925,270.0,bottom
+R3,10K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,144.46,-82.5,270.0,bottom
+R4,10K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,152.5525,-69.45,0.0,bottom
+U2,XC95144XL-TQ100,TQFP-100_14x14mm_P0.5mm,149.8375,-79.0,90.0,top
+U3,AMS1117-3.3,SOT-223-3_TabPin2,149.85,-77.95,180.0,bottom
